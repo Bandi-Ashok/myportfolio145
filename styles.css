@@ -1,0 +1,129 @@
+/* style.css */
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  color: #333;
+}
+
+/* BANNER / HERO */
+.banner {
+  position: relative;
+  text-align: center;
+  color: #fff;
+}
+.banner img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.profile-container {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -30%);
+  text-align: center;
+}
+.profile-pic {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #fff;
+  margin-bottom: 10px;
+}
+.profile-container h1 {
+  margin: 10px 0 5px;
+  font-size: 1.8rem;
+  color: #fff;
+}
+.profile-container p {
+  margin: 0;
+  font-size: 1rem;
+  color: #fff;
+}
+.social-icons {
+  margin-top: 10px;
+}
+.social-icons a {
+  color: #fff;
+  margin: 0 5px;
+  font-size: 1.2rem;
+  text-decoration: none;
+}
+
+/* NAVIGATION */
+nav {
+  background: #333;
+}
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+nav li {
+  margin: 0;
+}
+nav a {
+  display: block;
+  padding: 15px 20px;
+  color: #fff;
+  text-decoration: none;
+}
+nav a:hover {
+  background: #444;
+}
+
+/* SECTIONS */
+section {
+  background: #fff;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 5px;
+}
+section h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+section p,
+section ul,
+section li {
+  margin-bottom: 10px;
+  line-height: 1.6;
+}
+
+/* EXPERIENCE & PROJECTS */
+article {
+  margin-bottom: 20px;
+}
+article img {
+  width: 100%;
+  max-height: 300px;
+  object-fit: cover;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+/* CONTACT SECTION */
+#contact p {
+  margin: 10px 0;
+}
+#contact a {
+  color: #333;
+  text-decoration: none;
+}
+#contact a:hover {
+  text-decoration: underline;
+}
+
+/* FOOTER */
+footer {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
